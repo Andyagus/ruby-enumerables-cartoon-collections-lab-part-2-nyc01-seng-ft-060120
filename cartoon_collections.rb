@@ -13,7 +13,6 @@ def long_planeteer_calls(planeteer_calls)
   planeteer_calls.any? {|num| num > 4}
 end
 
-
 def find_valid_calls(planeteer_calls)
   valid_calls = ["Earth!", "Wind!", "Fire!", "Water!", "Heart!"]
   # Use an Enumerable to check if any elements in the passed in array match the valid calls listed above 
