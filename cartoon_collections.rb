@@ -17,3 +17,11 @@ def find_valid_calls(planeteer_calls)
   valid_calls = ["Earth!", "Wind!", "Fire!", "Water!", "Heart!"]
   planeteer_calls.select{|num| = }
 end
+
+even_numbers = []
+[1,2,3,4,5,6].each do |n|
+  if n.even?
+    even_numbers << n
+  end
+end
+
