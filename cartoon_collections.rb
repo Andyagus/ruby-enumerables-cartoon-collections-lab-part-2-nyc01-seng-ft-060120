@@ -21,10 +21,5 @@ def find_valid_calls(planeteer_calls)
     end
 end
 
-even_numbers = []
-[1,2,3,4,5,6].each do |n|
-  if n.even?
-    even_numbers << n
-  end
-end
+
 
