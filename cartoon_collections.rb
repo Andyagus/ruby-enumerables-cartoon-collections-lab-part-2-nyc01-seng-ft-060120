@@ -18,4 +18,4 @@ def find_valid_calls(planeteer_calls)
   planeteer_calls.find{|num| valid_calls.include?(num)}
 end
 
-planeteer_calls.find{|num| valid_calls.include?(num)
+planeteer_calls.find{|num| valid_calls.include?(num)}
